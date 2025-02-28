@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { selectDir, merge, findSingleSubdir } = require('../common/tools');
+const { selectDir, merge, findSingleSubdir } = require('./tools');
 
 // 一个文件夹就默认启动
 // 多个文件夹就让用户选择
